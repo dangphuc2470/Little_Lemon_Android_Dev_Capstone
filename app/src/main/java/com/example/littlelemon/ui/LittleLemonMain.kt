@@ -138,7 +138,7 @@ fun LittleLemonMainPage(
 
                                 // Update data on the main thread
                                 withContext(Dispatchers.Main) {
-                                    Toast.makeText(context, "Login Success", Toast.LENGTH_SHORT)
+                                    Toast.makeText(context, "Logged in", Toast.LENGTH_SHORT)
                                         .show()
                                     navController.navigate(Routes.HOME.name) {
                                         popUpTo(Routes.HOME.name) {
@@ -171,7 +171,7 @@ fun LittleLemonMainPage(
 
                                 // Update data on the main thread
                                 withContext(Dispatchers.Main) {
-                                    Toast.makeText(context, "Logout Success", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context, "Logged out", Toast.LENGTH_SHORT).show()
                                     navController.navigate(Routes.LOGIN.name) {
                                         popUpTo(Routes.LOGIN.name) {
                                             inclusive = true
@@ -206,7 +206,7 @@ fun LittleLemonMainPage(
 
                                 // Update data on the main thread
                                 withContext(Dispatchers.Main) {
-                                    Toast.makeText(context, "Theme Change Success", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context, "Theme Changed", Toast.LENGTH_SHORT).show()
                                 }
                             }
                         },
@@ -220,7 +220,7 @@ fun LittleLemonMainPage(
 
                                 // Update data on the main thread
                                 withContext(Dispatchers.Main) {
-                                    Toast.makeText(context, "Language Change Success", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context, "Language Changed", Toast.LENGTH_SHORT).show()
                                 }
                             }
                         },

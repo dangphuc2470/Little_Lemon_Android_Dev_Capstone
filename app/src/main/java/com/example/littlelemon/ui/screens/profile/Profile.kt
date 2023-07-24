@@ -132,7 +132,7 @@ fun ProfileContent(
                 trailing = {
                     Column() {
                         Image(
-                            painter = painterResource(id = selectedLang?.res ?: R.drawable.us),
+                            painter = painterResource(id = selectedLang?.res ?: R.drawable.en),
                             contentDescription = "App Language",
                             modifier = Modifier
                                 .size(25.dp)
