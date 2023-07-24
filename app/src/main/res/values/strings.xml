@@ -29,7 +29,7 @@
     <string name="total_price">Total Price</string>
     <string name="search_menu">Search Menu</string>
     <string name="order_for_delivery">Order For Delivery!</string>
-    <string name="let_s_get_to_know_you">Welcome to Little Lemon</string>
+    <string name="welcome">Welcome to Little Lemon</string>
     <string name="personal_information">Personal Information</string>
     <string name="email_address">Email Address</string>
     <string name="password">Password</string>
