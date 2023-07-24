@@ -84,16 +84,16 @@ fun LoginPage(
         ActionButton(
             onClick = {
                 emailError =
-                    if (emailText.emptyValidation()) "Email must be filled" else if (emailText.emailValidation(
+                    if (emailText.emptyValidation()) "Email can not be empty" else if (emailText.emailValidation(
 
                         )
-                    ) "Invalid Email" else ""
+                    ) "Invalid email address" else ""
                 passwordError =
-                    if (passwordText.emptyValidation()) "Password must be filled" else ""
+                    if (passwordText.emptyValidation()) "Password can not be empty" else ""
                 if (emailError.isEmpty() && passwordError.isEmpty()) {
                     Toast.makeText(
                         context,
-                        "LoggedIn successfully",
+                        "Logged In",
                         Toast.LENGTH_SHORT
                     ).show()
                     onNavigateToHome(
