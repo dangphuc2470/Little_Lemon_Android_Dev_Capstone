@@ -98,8 +98,8 @@ fun LoginPage(
                     ).show()
                     onNavigateToHome(
                         LittleLemonUser(
-                            firstName = "Martin",
-                            lastName = "Ødegaard",
+                            firstName = "Dang",
+                            lastName = "Phuc",
                             email = emailText,
                             password = passwordText
                         )
